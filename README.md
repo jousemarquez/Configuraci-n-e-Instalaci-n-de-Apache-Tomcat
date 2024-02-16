@@ -41,7 +41,7 @@ nano tomcat-users.xml
     - Subir el archivo .war y desplegarlo.
 
  - Despliegue a través de Filezilla:
-    - Subir el archivo .war a /etc/tomcat9/webapps.
+    - Subir el archivo .war a /var/lib/tomcat9/webapps/.
     - Mover el archivo a la carpeta de destino con mv path/archivo.war .
 
 3. Si se quiere que el proyecto sea accesible directamente desde la raíz, renombrar la carpeta ROOT:
